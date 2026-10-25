@@ -1,0 +1,18 @@
+{
+  "_comentarios": {
+    "taxa_desconto_real_aa": "Taxa de juros REAL (acima da inflacao) em % ao ano, usada para trazer contribuicoes e beneficios a valor presente. Referencia: rendimento real do Tesouro IPCA+ de longo prazo.",
+    "idade_final_recebimento": "Idade ate a qual o beneficio e recebido. null = idade de hoje + expectativa de sobrevida da tabua IBGE (ambos os sexos).",
+    "pagamentos_por_ano": "13 = 12 mensalidades + 13o (abono anual).",
+    "cenarios": "salario: null (nao contribui), \"minimo\", \"teto\" ou um valor em reais de hoje. aliquota: 0.20 no plano normal; 0.11 no plano simplificado (so sobre o minimo, sem direito as regras por tempo de contribuicao). O cenario com salario null e a base da comparacao."
+  },
+  "taxa_desconto_real_aa": 5.0,
+  "idade_final_recebimento": null,
+  "pagamentos_por_ano": 13,
+  "cenarios": [
+    {"nome": "Sem novas contribuicoes", "salario": null},
+    {"nome": "Minimo (20%)", "salario": "minimo", "aliquota": 0.20},
+    {"nome": "Minimo simplificado (11%)", "salario": "minimo", "aliquota": 0.11},
+    {"nome": "Intermediario (R$ 4.500)", "salario": 4500, "aliquota": 0.20},
+    {"nome": "Teto (20%)", "salario": "teto", "aliquota": 0.20}
+  ]
+}

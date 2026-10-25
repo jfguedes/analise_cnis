@@ -1,0 +1,15 @@
+# Dados pessoais: PDFs do CNIS, cálculos e relatórios gerados
+*.pdf
+*.txt
+!requirements.txt
+
+# Cache do INPC (o script baixa de novo)
+inpc_cache.json
+
+# Ambiente virtual e arquivos do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
