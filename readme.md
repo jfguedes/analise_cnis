@@ -4,6 +4,8 @@ O script `cnis_aposentadoria.py` lê o PDF do CNIS (Extrato Previdenciário baix
 
 É uma simulação para planejamento. Não substitui a análise do INSS ou de um advogado previdenciarista.
 
+**Atenção** Esta ferramenta foi feita em um dia com a ajuda do Claudinho (Claude Code). Não sou advogado nem especialista em previdência, e tinha pouquíssimos exemplos para estudar e validar os resultados. Veja a seção de limitações abaixo, mas considere que certamente existem diversos casos que esse script não deve considerar, e alguns erros também!!
+
 ## Instalação
 
 Precisa do Python 3.10 ou mais recente. Para conferir a versão:
